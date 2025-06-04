@@ -3,3 +3,36 @@
     padding: 0px;
     margin: 0px;
 }
+
+body{
+    /* border: 2px solid red; */
+    background-color: rgba(124, 126, 100, 0.6);
+}
+
+.body-container{
+    min-height: 100vh;
+    /* border: solid green; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer,
+.main-container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.main-container{
+    flex-grow: 1;
+
+    border: 0px
+}
+
+.my-canvas{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
