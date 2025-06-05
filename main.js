@@ -18,3 +18,12 @@ canvas.width = 7/10 * mcWidth;
 
 log(canvas.height);
 log(canvas.width);
+
+// move orgin
+const newOrigin = {
+    x : canvas.width/2,
+    y : canvas.height/2
+}
+ctx.translate(newOrigin.x,newOrigin.y);
+
+ctx.scale(1,-1);
