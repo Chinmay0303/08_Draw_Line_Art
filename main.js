@@ -14,7 +14,7 @@ log(mcHeight);
 log(mcWidth);
 
 canvas.height = 9/10 * mcHeight;
-canvas.width = 7/10 * mcWidth;
+canvas.width = 6/10 * mcWidth;
 
 log(canvas.height);
 log(canvas.width);
