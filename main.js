@@ -20,8 +20,8 @@ log(canvas.height);
 log(canvas.width);
 
 const cursor =  {
-    x: 0,
-    y: 0
+    x: canvas.width/2,
+    y: canvas.height/2
 }
 
 document.addEventListener('click',clickEvent);
