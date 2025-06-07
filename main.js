@@ -13,7 +13,7 @@ const mcWidth = mainContainer.clientWidth;
 log(mcHeight);
 log(mcWidth);
 
-canvas.height = 9/10 * mcHeight;
+canvas.height = 9.8/10 * mcHeight;
 canvas.width = 6/10 * mcWidth;
 
 log(canvas.height);
